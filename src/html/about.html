@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../image/icon.png" type="image/x-icon" />
     <title>About | Espresso Hub</title>
     <!-- icons -->
-    <script src="https://kit.fontawesome.com/5716ed8254.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/5716ed8254.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- styles -->
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <!-- JavaScript -->
+    <script type="module" src="../js/app.js"></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -16,13 +23,16 @@
     <span class="nav-btn" id="nav-btn"><i class="fa-solid fa-bars"></i></span>
     <nav class="navbar" id="navbar">
       <div class="navbar-header">
-        <span class="nav-close" id="nav-close"><i class="fa-solid fa-xmark"></i></span>
+        <span class="nav-close" id="nav-close"
+          ><i class="fa-solid fa-xmark"></i
+        ></span>
       </div>
       <ul class="nav-items">
         <li><a href="./index.html" class="nav-link">home</a></li>
         <li><a href="./skills.html" class="nav-link">skills</a></li>
         <li><a href="./about.html" class="nav-link">about</a></li>
         <li><a href="./products.html" class="nav-link">products</a></li>
+        <li><a href="./recipes.html" class="nav-link">recipes</a></li>
       </ul>
     </nav>
     <!-- Header -->
@@ -33,7 +43,7 @@
           distinct <br />
           coffee delights
         </h1>
-        <a href="./skills.html" class="btn banner-btn">explore</a>
+        <a href="./recipes.html" class="btn banner-btn">explore</a>
       </div>
     </header>
     <!-- End of Header -->
@@ -43,7 +53,11 @@
         <!-- about img -->
         <article class="about-img">
           <div class="about-picture-container">
-            <img src="./images/about-bcg.jpg" alt="coffee house" class="about-picture" />
+            <img
+              src="../image/about-bcg.jpg"
+              alt="coffee house"
+              class="about-picture"
+            />
           </div>
         </article>
         <!-- about info -->
@@ -55,12 +69,12 @@
           </div>
           <!-- end of section title -->
           <p class="section-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio laboriosam ea nihil eveniet
-            architecto.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio
+            laboriosam ea nihil eveniet architecto.
           </p>
           <p class="section-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio laboriosam ea nihil eveniet
-            architecto.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio
+            laboriosam ea nihil eveniet architecto.
           </p>
           <a href="./about.html" class="btn">learn more</a>
         </article>
@@ -71,17 +85,22 @@
     <footer class="footer">
       <div class="section-center">
         <div class="social-icons">
-          <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-icon"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="#" class="social-icon"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="#" class="social-icon"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
         </div>
         <h4 class="footer-text">
-          &copy;<span id="date"></span> <span class="company">espresso hub</span> all rights reserved
+          &copy;<span id="date"></span>
+          <span class="company">espresso hub</span> all rights reserved
         </h4>
       </div>
     </footer>
     <!-- End of Footer -->
-    <!-- JavaScript -->
-    <script src="./app.js"></script>
   </body>
 </html>

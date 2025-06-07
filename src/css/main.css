@@ -1,5 +1,5 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Grand+Hotel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Grand+Hotel&display=swap');
 
 /* Variables */
 :root {
@@ -10,8 +10,8 @@
   --clr-grey-10: #f1f5f8;
   --clr-white: #fff;
   --clr-black: #222;
-  --ff-primary: "Catamaran", sans-serif;
-  --ff-secondary: "Grand Hotel", cursive;
+  --ff-primary: 'Catamaran', sans-serif;
+  --ff-secondary: 'Grand Hotel', cursive;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -122,7 +122,7 @@ p {
 
 .clearfix::before,
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
@@ -229,8 +229,11 @@ p {
 header {
   min-height: 100vh;
 
-  background: linear-gradient(rgba(128, 128, 128, 0.3), rgba(128, 128, 128, 0.3)),
-    url("../images/main-bcg.jpg") center/cover no-repeat fixed;
+  background: linear-gradient(
+      rgba(128, 128, 128, 0.3),
+      rgba(128, 128, 128, 0.3)
+    ),
+    url('../image/main-bcg.jpg') center/cover no-repeat fixed;
   position: relative;
   overflow-x: hidden;
 }
@@ -268,7 +271,12 @@ header {
 /* Content Divider */
 .content-divider {
   height: 0.5rem;
-  background: linear-gradient(to left, var(--clr-primary), #e9b949, var(--clr-primary));
+  background: linear-gradient(
+    to left,
+    var(--clr-primary),
+    #e9b949,
+    var(--clr-primary)
+  );
 }
 
 /* Skills Section */

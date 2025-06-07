@@ -1,0 +1,5 @@
+recipe-*.png
+dist
+node_modules
+.parcel-cache
+comments.txt

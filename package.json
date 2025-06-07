@@ -1,0 +1,27 @@
+{
+  "name": "espresso-hub",
+  "version": "1.0.0",
+  "description": "Espresso Hub\r Welcome to Espresso Hub, your go-to resource for mastering the art of espresso! This repository houses the HTML and CSS code for Espresso Hub, a comprehensive platform designed to cater to coffee enthusiasts, home baristas, and anyone passionate about the perfect cup of espresso.",
+  "homepage": "https://github.com/DecoderNikhil/Espresso-Hub#readme",
+  "bugs": {
+    "url": "https://github.com/DecoderNikhil/Espresso-Hub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DecoderNikhil/Espresso-Hub.git"
+  },
+  "license": "ISC",
+  "author": "Nikhil",
+  "scripts": {
+    "start": "parcel src/html/index.html",
+    "build": "parcel build src/html/index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "core-js": "^3.42.0",
+    "fracty": "^1.0.12",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
